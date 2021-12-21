@@ -1,0 +1,66 @@
+<view class="pyg_index">
+<SearchInput></SearchInput>
+</view>
+
+<view class="main">
+  <!--头像-->
+  <view class="head">
+     <image src="{{path}}t3.jpg" mode="widthFix"></image>
+     <view class="row">
+      <text>一夜奈良山</text>
+    </view>
+  </view>
+  <!--头像结束-->
+  <!-- 价格 -->
+  <view class="row1">
+  <text class="price">￥<text class="big">55</text></text>
+  </view>
+  <!--价格结束-->
+  <!--标题-->
+  <view class="row2">
+  <text class="details">2021新款外套男秋季宽松韩版vibe风外套港风工装休闲夹克棒球衣服
+特价活动款，质量保证，纯棉材质
+</text>
+ </view>
+  <!--标题结束-->
+<!-- 画开始   -->
+<view class="art">
+<view class="art1">
+<image src="{{path}}c21.jpg" mode="widthFix">
+</image>
+</view>
+<view class="art2">
+<image src="{{path}}c22.jpg" mode="widthFix">
+</image>
+</view>
+</view>
+<!-- 画结束 -->
+  <!--头像-->
+  <view class="head1">
+     <image src="{{path}}t4.jpg" mode="widthFix"></image>
+     <view class="row3">
+      <text>若即若离</text>
+    </view>
+  </view>
+  <!--头像结束--> 
+  <!-- 价格 -->
+  <view class="row4">
+  <text class="price">￥<text class="big">19</text></text>
+  </view>
+  <!--价格结束-->
+  <!--标题-->
+  <view class="row5">
+  <text class="details">春秋潮牌纯棉白色纯色宽松叠穿打底衫长袖T恤男休闲内搭上衣服白t</text>
+ </view>
+  <!--标题结束-->
+<!-- 画开始   -->
+<view class="art3">
+<image src="{{path}}c23.jpg" mode="widthFix">
+</image>
+</view>
+<view class="art4">
+<image src="{{path}}c24.jpg" mode="widthFix">
+</image>
+</view>
+<!-- 画结束 -->
+</view>

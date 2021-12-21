@@ -1,0 +1,104 @@
+.main{
+  background-color: #eee;
+}
+swiper{
+  height: 366rpx;
+}
+ swiper-item image{
+   width: 100%;
+ }
+ .modules{
+  position: relative;
+ }
+ .item{
+  padding-bottom: 50rpx;
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  /* top:0rpx; */
+ }
+ .item1{
+  display: flex;
+ }
+ .item1 image{
+  width: 105rpx;
+ }
+ .item1 navigator{ 
+  padding: 15rpx 0;
+  flex: 1;
+  text-align: center;
+ }
+ .item2{
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  top:102rpx;
+ }
+ .item3{
+  display: flex;
+ }
+ .order_name{
+  padding: 15rpx 0;
+  flex: 1;
+  text-align: center;
+ }
+ .index_floor{
+   position: relative;
+ }
+.floor_title{
+  position: absolute;
+  width: 200rpx;
+  left: 35rpx;
+  top: 180rpx;
+  background-color: #eee;
+}
+.floor_title image{
+  width: 100%;
+}
+.floor_bck{
+  position: absolute;
+  width: 750rpx;
+  height: 110rpx;
+  background-color: #eee;
+  top: 180rpx;
+}
+.floor_groop{
+  position: relative;
+}
+.floor_list1{
+  padding-bottom: 30rpx;
+  position: absolute;
+  width: 234rpx;
+  left: 12rpx;
+  top: 300rpx;
+}
+.floor_list2{
+  position: absolute;
+  width: 234rpx;
+  left: 258rpx;
+  top: 300rpx;
+}
+.floor_list3{
+  position: absolute;
+  width: 234rpx;
+  left: 258rpx;
+  top: 499rpx;
+}
+.floor_list4{
+  position: absolute;
+  width: 234rpx;
+  left: 504rpx;
+  top: 300rpx;
+}
+.floor_list5{
+  position: absolute;
+  width: 234rpx;
+  left: 504rpx;
+  top: 499rpx;
+}
+.floor_groop image{
+width: 100%;
+}
+

@@ -1,0 +1,38 @@
+<view class="main">
+  <image src="{{path}}6.jpg" mode="width"></image>
+
+  <view class="section">
+  <text class="s1">累计存贮<text class="s2">617,734</text>件</text>
+</view>
+  <view class="section1">
+    <view class="image1">
+    <image src="{{path}}c34.jpg" mode="width"></image>
+    </view>
+  <text class="s3">快速监查鉴定</text>
+  <view class="image2">
+  <image src="{{path}}8.jpg" mode="width"></image>
+  </view>
+  </view>
+
+    <view class="title">
+  <view class="t1">推荐商品</view>
+  <view class="t2" bindtap="go">全部商品 ></view>
+  </view>
+
+  <view class="commodity">
+   <!--第一个商品开始-->
+<view class="item" wx:for='{{recommend}}' wx:key='id' >
+  <image src="{{path}}{{item.imgurl}}" mode="widthFix" data-id='{{item._id}}'></image>
+  <view class="content"> 
+    <view class="row">
+      <text>{{item.details}}</text>
+     </view> 
+     <view class="row1">
+      <text class="price">￥{{item.price}}</text> 
+     </view>   
+  </view>
+</view> 
+<!--第一个商品结束-->
+
+</view>
+</view>

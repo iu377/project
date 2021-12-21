@@ -1,0 +1,138 @@
+.main{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.head image{
+  position: absolute;
+  width: 70rpx;
+  left: 25rpx;
+  top: 20rpx;
+}
+.row{
+  position: absolute;
+  left: 109rpx;
+  top: 28rpx;
+  font-size:35rpx;
+  font-weight: bold;
+}
+.row1{
+  position: absolute;
+  left: 25rpx;
+  top: 110rpx;
+}
+.row1 .price{
+  color: #d6421c;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.row1 .price .big{
+  font-size: 40rpx;
+}
+.area{
+  position: absolute;
+  left: 200rpx;
+  top: 110rpx;
+  font-size: 35rpx;
+  font-weight: bold;
+}
+.row2{
+  position: absolute;
+  left: 25rpx;
+  top: 190rpx;
+  font-size:40rpx;
+}
+.brand{
+  position: absolute;
+  left: 25rpx;
+  top: 338rpx;
+  color: #666666;
+  font-size: 35rpx;
+}
+.brand1{
+  position: absolute;
+  left: 120rpx;
+  top: 338rpx;
+  font-size:35rpx;
+  font-weight: bold;
+}
+.size{
+  position: absolute;
+  left: 25rpx;
+  top: 425rpx;
+  color: #666666;
+  font-size: 35rpx;
+}
+.size1{
+  position: absolute;
+  left: 120rpx;
+  top: 425rpx;
+  font-size:35rpx;
+  font-weight: bold;
+}
+.degree{
+  position: absolute;
+  left: 25rpx;
+  top: 500rpx;
+  color: #666666;
+  font-size: 35rpx;
+}
+.degree1{
+  position: absolute;
+  left: 120rpx;
+  top: 500rpx;
+  font-size:35rpx;
+  font-weight: bold;
+}
+.art{
+  display: flex;
+  height: 1600rpx;
+  justify-content: center;
+  align-items: center;
+}
+.art image{
+  width: 400rpx;
+  height: 400rpx;
+}
+   /* 底部样式开始 */
+.bottomMenu{
+  width: 100%;
+  background-color: #fff;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+}
+.bottomMenu .item{
+font-size: 16rpx;
+color: #999;
+text-align: center;
+}
+.bottomMenu .item image{
+  width: 80%;
+}
+.bottomMenu .btnItem{
+  display: flex;
+  flex-direction: row;
+  height: 60rpx;
+  color: #fff;
+}
+.bottomMenu .btnItem .cart{
+  background-color: #fec81d;
+  font-size: 28rpx;
+  align-items: center;
+  padding: 10rpx 60rpx;
+  border-bottom-left-radius: 10rpx;
+  border-top-left-radius:10rpx;
+}
+.bottomMenu .btnItem .buy{
+  background-color: #d6421c;
+  font-size: 28rpx;
+  align-items: center;
+  padding: 10rpx 60rpx;
+  border-bottom-right-radius: 10rpx;
+  border-top-right-radius:10rpx;
+}

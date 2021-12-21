@@ -1,0 +1,69 @@
+<!--收货地址-->
+<view class="user">
+  <view class="user_info">
+    <text class="username">收件人</text>
+    <text class="userphone">020-8117689</text>
+  </view>
+<view class="user_area">
+  <text>浙江省宁波市中官路448号</text>
+</view>
+</view>
+<!--收货地址结束-->
+<!--购物车开始-->
+<view class="cart">
+<view class="cart_title">购物车</view>
+<view class="item" wx:for='{{carts}}' wx:key='id' >
+    <!--复选框-->
+    <view class="cart_wrap">
+<icon wx:if="{{item.selected}}" type="success" color="red" bindtap="selectList" data-index="{{index}}" />
+<icon wx:else type= "circle" bindtap="selectList" data-index="{{index}}"/>
+    </view>
+    <!--商品图片-->
+     <navigator class="cart_img">
+       <image src="{{path}}{{item.imgurl}}" mode="widthFix" bindtap="more" data-id='{{item._id}}'></image>
+     </navigator>
+    <!--商品信息-->
+    <view class="cart_info_wrap">
+    <view class="goods_name">{{item.details}}</view>
+    <view class="cart_price_wrap">
+    <view class="cart_price">￥{{item.price}}</view>
+<!--增加减少数量按钮-->
+    <view class="cart_num_tool">
+      <view class="num_edit">
+        <text bindtap="minusCount" data-index="{{index}}">-</text>
+      </view>
+      <view class="goods_num">
+        <text>{{item.num}}</text>
+      </view>
+      <view class="num_edit">
+ <text bindtap="addCount" data-index="{{index}}">+</text>
+      </view>
+    </view>
+    </view>
+    </view>
+</view>
+</view>
+<!--购物车结束-->
+<!--底部工具栏-->
+<view class="footer_tool">
+  <!--全选-->
+  <view class="all_chk_wrap">
+<icon wx:if="{{selectAllStatus}}" type="success_circle" color="#fff" bindtap="selectAll" />
+<icon wx:else type="circle" color="#fff" bindtap="selectAll" />
+<icon wx:if="{{item.selected}}" type="success" color="red" bindtap="selectList" data-index="{{index}}" />
+<icon wx:else type= "circle" bindtap="selectList" data-index="{{index}}"/>
+<text>全选</text>
+  </view>
+  <!--总价格-->
+  <view class="total_price_wrap">
+    <view class="total_price">
+      合计： <text class="total_price_text">￥{{totalPrice}}</text>
+    </view>
+    <view>包含运费</view>
+  </view>
+  <!--结算-->
+  <view class="order_pay_wrap">
+    去结算
+  </view>
+</view>
+<!--底部工具栏结束-->

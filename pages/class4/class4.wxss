@@ -1,0 +1,117 @@
+/* miniprogram/pages/class4/class4.wxss */
+.main{
+  width: 100%;
+}
+.head image{
+  position: absolute;
+  width: 70rpx;
+  left: 25rpx;
+  top: 105rpx;
+}
+.row{
+  position: absolute;
+  left: 109rpx;
+  top: 112rpx;
+  font-size:35rpx;
+  font-weight: bold;
+}
+.row1{
+  position: absolute;
+  left: 650rpx;
+  top: 115rpx;
+}
+.row1 .price{
+  color: #d6421c;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.row1 .price .big{
+  font-size: 40rpx;
+}
+.row2{
+  position: absolute;
+  left: 25rpx;
+  top: 185rpx;
+  font-size:30rpx;
+}
+.art{
+  padding: 300rpx;
+  border-bottom: 0.5rpx solid #C0C0C0;
+}
+.art1{
+  position: absolute;
+  top: 320rpx;
+  left: 25rpx;
+}
+.art1 image{
+  width:344rpx;
+  height:344rpx;
+  border-top-left-radius: 20rpx;
+  border-bottom-left-radius: 20rpx;
+}
+.art2{
+  position: absolute;
+  top: 320rpx;
+  left: 371rpx;
+}
+.art2 image{
+  width:344rpx;
+  height:344rpx;
+  border-top-right-radius: 20rpx;
+  border-bottom-right-radius: 20rpx;
+}
+.head1 image{
+  position: absolute;
+  width: 70rpx;
+  left: 25rpx;
+  top: 700rpx;
+}
+.row3{
+  position: absolute;
+  left: 109rpx;
+  top: 707rpx;
+  font-size:35rpx;
+  font-weight: bold;
+}
+.row4{
+  position: absolute;
+  left: 650rpx;
+  top: 710rpx;
+}
+.row4 .price{
+  color: #d6421c;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.row4 .price .big{
+  font-size: 40rpx;
+}
+.row5{
+  position: absolute;
+  left: 25rpx;
+  top: 780rpx;
+  font-size:32rpx;
+}
+.art3{
+  position: absolute;
+  top: 885rpx;
+  left: 25rpx;
+}
+.art3 image{
+  width:344rpx;
+  height:344rpx;
+  border-top-left-radius: 20rpx;
+  border-bottom-left-radius: 20rpx;
+}
+.art4{
+  position: absolute;
+  top: 885rpx;
+  left: 371rpx;
+}
+.art4 image{
+  width:344rpx;
+  height:344rpx;
+  border-top-right-radius: 20rpx;
+  border-bottom-right-radius: 20rpx;
+  margin-bottom: 50rpx;
+}

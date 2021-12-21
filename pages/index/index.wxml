@@ -1,0 +1,81 @@
+<view class="pyg_index">
+<SearchInput></SearchInput>
+</view>
+<!--轮播-->
+<view class="main">
+<swiper autoplay="true" interval='4000' duration='2000' circular='true'
+indicator-dots='true' indicator-color='#000' indicator-active-color='#666'>
+   <swiper-item>
+   <image src="{{path}}l1.jpg" mode="widthFix"></image>
+   </swiper-item>
+   <swiper-item>
+   <image src="{{path}}l2.jpg" mode="widthFix"></image>
+   </swiper-item>
+   </swiper>
+   </view> 
+   <!--轮播结束-->
+   <!-- 功能模块-->
+   <view class="modules">
+   <view class="item">
+   <view class="item1">
+    <navigator url="../function1/function1">
+        <image src="{{path}}1.jpg" mode="widthFix"></image>
+    </navigator>
+    <navigator bindtap="go">
+        <image src="{{path}}2.jpg" mode="widthFix"></image>
+    </navigator>
+    <navigator url="../function3/function3">
+        <image src="{{path}}3.jpg" mode="widthFix"></image>
+    </navigator>
+    <navigator url="../function4/function4">
+        <image src="{{path}}4.jpg" mode="widthFix"></image>
+    </navigator>
+   </view>
+    </view>
+    <view class="item2">
+    <view class="item3">
+        <view class="order_name">鉴定</view>
+        <view class="order_name">上架</view>
+        <view class="order_name">仓储</view>
+        <view class="order_name">物流</view>
+    </view>
+</view>
+  </view>
+   <!--功能模块结束 -->
+<!--楼层-->
+<view class="index_floor">
+<view class="floor_bck">
+</view>
+    <!--标题-->
+<view class="floor_title">
+   <image mode="widthFix" src="{{path}}7.jpg"></image>
+</view>
+</view>
+    <!--内容-->
+<view class="floor_groop"> 
+<view class="floor_list1">
+    <navigator>
+        <image src="{{path}}f1.jpg" mode="widthFix" bindtap="more1"></image> 
+    </navigator>
+</view>
+<view class="floor_list2">
+    <navigator>
+        <image src="{{path}}f2.jpg" mode="widthFix" bindtap="more2"></image>
+    </navigator>
+</view>
+<view class="floor_list3">
+    <navigator>
+        <image src="{{path}}f3.jpg" mode="widthFix" bindtap="more3"></image>
+    </navigator>
+</view>
+<view class="floor_list4">
+    <navigator>
+        <image src="{{path}}f4.jpg" mode="widthFix" bindtap="more4"></image>
+    </navigator>
+</view>
+<view class="floor_list5">
+    <navigator>
+        <image src="{{path}}f5.jpg" mode="widthFix" bindtap="more5"></image>
+    </navigator>
+</view>
+</view>

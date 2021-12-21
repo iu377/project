@@ -1,0 +1,134 @@
+.main{
+  background-color: #edece8;
+}
+.title{
+  padding-top:10rpx;
+  width: 100%;
+  display: flex;
+}
+.item1{
+   width: 380rpx;
+   height: 70rpx;
+   text-align: right;
+   line-height: 70rpx;
+   font-size: 38rpx;
+   font-weight: bold;
+}
+.item2{
+  width: 342rpx;
+  height: 70rpx;
+  text-align: right;
+  line-height: 70rpx;
+  font-size: 35rpx;
+  color: #5C3317;
+}
+.picture image{
+  width: 750rpx;
+}
+.section{
+  margin: 10rpx 20rpx;
+  height: 85rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 10rpx;
+}
+.section image{
+  width: 45rpx;
+  margin-left: 25rpx;
+  margin-top: 20rpx;
+}
+.section .S1{
+  margin-left: 30rpx;
+  line-height: 85rpx;
+  font-size: 35rpx;
+  font-weight: bold;
+  color: #5C3317;
+}
+.section1{
+  margin: 20rpx 20rpx;
+  height: 370rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+}
+.s1{
+  display: flex;
+  margin-left: 30rpx;
+}
+.a1{
+  margin-top: 10rpx;
+  width: 80rpx;
+  height: 40rpx;
+  background-color: #A9A9A9;
+  border-radius: 20rpx;
+  text-align:center;
+  line-height: 40rpx;
+  font-size: 29rpx;
+  color: #ffffff;
+}
+.a2{
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+  height: 40rpx;
+  text-align:center;
+  line-height: 40rpx;
+  font-size: 30rpx;
+  color: #999999;
+}
+.s2{
+  margin-left: 30rpx;
+}
+.b1{
+  margin-top: 10rpx;
+  width: 80rpx;
+  height: 40rpx;
+  background-color: #A9A9A9;
+  border-radius: 20rpx;
+  text-align:center;
+  line-height: 40rpx;
+  font-size: 29rpx;
+  color: #ffffff;
+}
+.b2{
+  margin-top: 10rpx;
+  margin-left: 76rpx;
+  height: 40rpx;
+  text-align:left;
+  line-height: 40rpx;
+  font-size: 31rpx;
+  color: #20B2AA;
+  font-weight: 300;
+}
+.b3{
+  margin-top: 5rpx;
+  margin-left: 76rpx;
+  height: 40rpx;
+  text-align:left;
+  line-height: 40rpx;
+  font-size: 31rpx;
+  font-weight: 300;
+}
+.s3{
+  margin-left: 30rpx;
+}
+.c1{
+  margin-top: 10rpx;
+  width: 80rpx;
+  height: 40rpx;
+  background-color: #A9A9A9;
+  border-radius: 20rpx;
+  text-align:center;
+  line-height: 40rpx;
+  font-size: 29rpx;
+  color: #ffffff;
+}
+.c2{
+  margin-top: 10rpx;
+  margin-left: 76rpx;
+  margin-right: 30rpx;
+  height: 40rpx;
+  text-align:center;
+  line-height: 40rpx;
+  font-size: 30rpx;
+  color: #999999;
+}

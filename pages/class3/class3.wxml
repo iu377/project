@@ -1,0 +1,64 @@
+<view class="pyg_index">
+<SearchInput></SearchInput>
+</view>
+
+<view class="main">
+  <!--头像-->
+  <view class="head">
+     <image src="{{path}}t5.jpg" mode="widthFix"></image>
+     <view class="row">
+      <text>伸手挽明月</text>
+    </view>
+  </view>
+  <!--头像结束-->
+  <!-- 价格 -->
+  <view class="row1">
+  <text class="price">￥<text class="big">45</text></text>
+  </view>
+  <!--价格结束-->
+  <!--标题-->
+  <view class="row2">
+  <text class="details">2021新款南极人秋冬外套！！男士休闲工装夹克宽松连帽青少年学生男装衣服潮薄厚可选，款式颜色还有很多，福利款。</text>
+ </view>
+  <!--标题结束-->
+<!-- 画开始   -->
+<view class="art">
+<view class="art1">
+<image src="{{path}}c31.jpg" mode="widthFix">
+</image>
+</view>
+<view class="art2">
+<image src="{{path}}c32.jpg" mode="widthFix">
+</image>
+</view>
+</view>
+<!-- 画结束 -->
+  <!--头像-->
+  <view class="head1">
+     <image src="{{path}}t6.jpg" mode="widthFix"></image>
+     <view class="row3">
+      <text>人逝花落空</text>
+    </view>
+  </view>
+  <!--头像结束--> 
+  <!-- 价格 -->
+  <view class="row4">
+  <text class="price">￥<text class="big">20</text></text>
+  </view>
+  <!--价格结束-->
+  <!--标题-->
+  <view class="row5">
+  <text class="details">网红外套男女潮流百搭春秋装2021新款韩版宽松港风夹克男女学生潮牌</text>
+ </view>
+  <!--标题结束-->
+<!-- 画开始   -->
+<view class="art3">
+<image src="{{path}}c33.jpg" mode="widthFix">
+</image>
+</view>
+<view class="art4">
+<image src="{{path}}c34.jpg" mode="widthFix">
+</image>
+</view>
+<!-- 画结束 -->
+</view>

@@ -1,0 +1,66 @@
+<view class="main">
+<form bindsubmit="add">
+  <!-- 输入头像照片 -->
+<view class="section">
+   <view class="uploader-container"wx-if="{{headImg!=''}}">
+<image src="{{headImg}}" mode="widthFix">
+</image></view>
+<view class="uploader-text" bindtap="chooseHeadImage">
+  <view>选择头像照片</view>
+</view>
+</view>
+<!-- id -->
+<view class="section">
+<image src="../../images/xx.png" mode="widthFix">
+</image>
+<input type="text"  name="author" placeholder="输入id" confirm-type="next"/>
+</view>
+  <!-- 介绍文字 -->
+<view class="section">
+<image src="../../images/xx.png" mode="widthFix">
+</image>
+<input type="text"  name="details" placeholder="输入介绍文字" confirm-type="next"/>
+</view>
+<!-- 选择商品图片 -->
+<view class="section">
+ <view class="uploader-container" wx-if="{{imgurl!=''}}">
+<image src="{{imgurl}}" mode="widthFix"></image>
+ </view>
+ <view class="uploader-text" bindtap="chooseImage">
+<view>选择商品图片</view>
+ </view>
+</view>
+<!-- 输入地区 -->
+<view class="section">
+<image src="../../images/xx.png" mode="widthFix">
+</image>
+<input type="text" name="area" placeholder="输入地区" confirm-type="next"/>
+</view>
+<!-- 输入品牌 -->
+<view class="section">
+<image src="../../images/xx.png" mode="widthFix">
+</image>
+<input type="text" placeholder="输入品牌" name="brand" confirm-type="next"/>
+</view>
+<!-- 输入价格 -->
+<view class="section">
+<image src="../../images/xx.png" mode="widthFix">
+</image>
+<input type="number" placeholder="输入价格" name="price" confirm-type="next"/>
+</view>
+<!-- 输入尺码信息 -->
+<view class="section">
+<image src="../../images/xx.png" mode="widthFix">
+</image>
+<input type='text' placeholder="输入尺码信息" name="size" confirm-type="next"/>
+</view>
+<!-- 输入成色信息 -->
+<view class="section">
+<image src="../../images/xx.png" mode="widthFix"></image>
+<input type='text' placeholder="输入成色信息" name="degree" confirm-type="next"/>
+</view>
+<view class="section1">
+  <button form-type="submit" >提交</button>
+</view>
+</form>
+</view>

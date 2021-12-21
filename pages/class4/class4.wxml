@@ -1,0 +1,65 @@
+<view class="pyg_index">
+<SearchInput></SearchInput>
+</view>
+
+<view class="main">
+  <!--头像-->
+  <view class="head">
+     <image src="{{path}}t1.jpg" mode="widthFix"></image>
+     <view class="row">
+      <text>被冲淡的悲伤</text>
+    </view>
+  </view>
+  <!--头像结束-->
+  <!-- 价格 -->
+  <view class="row1">
+  <text class="price">￥<text class="big">65</text></text>
+  </view>
+  <!--价格结束-->
+  <!--标题-->
+  <view class="row2">
+  <text class="details">【清仓处理】秋季ins韩版宽松条纹假两件薄款长袖T恤女学生休闲学院风潮上衣尺码：S~2Xl
+质量棒棒哒，感兴趣的点我想要哦～</text>
+ </view>
+  <!--标题结束-->
+<!-- 画开始   -->
+<view class="art">
+<view class="art1">
+<image src="{{path}}c41.jpg" mode="widthFix">
+</image>
+</view>
+<view class="art2">
+<image src="{{path}}c42.jpg" mode="widthFix">
+</image>
+</view>
+</view>
+<!-- 画结束 -->
+  <!--头像-->
+  <view class="head1">
+     <image src="{{path}}t2.jpg" mode="widthFix"></image>
+     <view class="row3">
+      <text>花开一夜</text>
+    </view>
+  </view>
+  <!--头像结束--> 
+  <!-- 价格 -->
+  <view class="row4">
+  <text class="price">￥<text class="big">30</text></text>
+  </view>
+  <!--价格结束-->
+  <!--标题-->
+  <view class="row5">
+  <text class="details">秋季卫衣男潮ins韩版宽松t恤冬季加绒加厚打底衫内搭上衣潮流衣服</text>
+ </view>
+  <!--标题结束-->
+<!-- 画开始   -->
+<view class="art3">
+<image src="{{path}}c43.jpg" mode="widthFix">
+</image>
+</view>
+<view class="art4">
+<image src="{{path}}c44.jpg" mode="widthFix">
+</image>
+</view>
+<!-- 画结束 -->
+</view>

@@ -1,0 +1,55 @@
+<view class="main">
+  <!--头像-->
+  <view class="head">
+     <image src="{{path}}{{goods[0].headImg}}" mode="widthFix"></image>
+     <view class="row">
+      <text>{{goods[0].author}}</text>
+    </view>
+  </view>
+  <!--头像结束-->
+  <!-- 价格 -->
+  <view class="row1">
+  <text class="price">￥<text class="big">{{goods[0].price}}</text></text>
+  </view>
+  <text class="area">{{goods[0].area}}</text>
+  <!--价格结束-->
+  <!--标题-->
+  <view class="row2">
+  <text class="details">{{goods[0].details}}</text>
+ </view>
+  <!--标题结束-->
+  <!--品牌-->
+    <text class="brand">品牌</text>
+    <text class="brand1">{{goods[0].brand}}</text>
+  <!--品牌结束-->
+  <!--尺码-->
+    <text class="size">尺码</text>
+    <text class="size1">{{goods[0].size}}</text>
+  <!--尺码结束-->
+  <!--成色-->
+    <text class="degree">品牌</text>
+    <text class="degree1">{{goods[0].degree}}</text>
+  <!--品牌结束-->
+<!-- 画开始   -->
+<view class="art">
+<image src="{{path}}{{goods[0].imgurl}}" mode="widthFix">
+</image>
+</view>
+<!-- 画结束 -->
+<!-- 底部导航开始 -->
+<view class="bottomMenu">
+<view class="item">
+<image src="{{path}}dz.png" mode="widthFix"></image>
+<text>收货地址</text>
+</view>
+<view class="item">
+<image src="{{path}}sl.png" mode="widthFix"></image>
+<text>私信聊天</text>
+</view>
+<view class="btnItem">
+<view class="cart" bindtap="add">加购</view>
+<view class="buy">购买</view>
+</view>
+</view>
+<!-- 底部导航结束 -->
+</view>

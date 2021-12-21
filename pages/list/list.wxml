@@ -1,0 +1,22 @@
+<view class="main" >
+   <!--第一个商品开始-->
+<view class="item" wx:for='{{goods}}' wx:key='id' >
+  <image src="{{path}}{{item.imgurl}}" mode="widthFix" bindtap="more" data-id='{{item._id}}'></image>
+  <view class="content"> 
+    <view class="row">
+      <text>{{item.details}}</text>
+     </view> 
+     <view class="row1">
+      <text class="price">￥{{item.price}}</text> 
+     </view>
+     <view class="head">
+     <image src="{{path}}{{item.headImg}}" mode="widthFix"></image>
+     </view>
+     <view class="row2">
+      <text>{{item.author}}</text>
+    </view>
+  </view>
+</view> 
+<!--第一个商品结束-->
+
+</view>

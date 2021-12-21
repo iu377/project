@@ -1,0 +1,29 @@
+<view class="main">
+<!--标题-->
+<view class="title">
+  <view class="item1">物流</view>
+  <view class="item2">鉴别服务</view>
+</view>
+<view  class="picture">
+  <image src="{{path}}5.jpg" mode="widthFix"></image>
+</view>
+<view class="section">
+  <image src="{{path}}c11.JPG" mode="widthFix"></image>
+  <text class="S1">卖家发货至衣二仓库</text>
+</view>
+<view class="section1">
+<view class="s1">
+  <view class="a1">收货</view>
+  <view class="a2">[收货地址]浙江省宁波市中官路448号</view>
+</view>
+<view class="s2">
+  <view class="b1">鉴别</view>
+  <view class="b2">运输中</view>
+  <view class="b3">衣二仓库</view>
+</view>
+<view class="s3">
+  <view class="c1">寄件</view>
+  <view class="c2">[苏州]卖家已将商品发往衣二仓库进行查验鉴别，正在等待快递揽收。</view>
+</view>
+</view>
+</view>

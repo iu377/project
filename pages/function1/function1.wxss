@@ -1,0 +1,126 @@
+.main{
+  padding-top:10rpx;
+  width: 100%;
+}
+.item1{
+   width: 750rpx;
+   height: 80rpx;
+   text-align: center;
+   line-height: 80rpx;
+   font-size: 60rpx;
+   font-weight: bold;
+}
+.main1{
+  padding-top:10rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.item2{
+  width: 375rpx;
+  height: 45rpx;
+  text-align: center;
+  line-height: 45rpx;
+  font-size: 40rpx;
+  color: #5C3317;
+}
+.item3{
+  width: 375rpx;
+  height: 45rpx;
+  text-align: center;
+  line-height: 45rpx;
+  font-size: 40rpx;
+  color: #5C3317;
+}
+.photo{
+  padding-top:30rpx;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.p1{
+  width: 670rpx;
+  height: 80rpx;
+  background-color: #70DBDB;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #ffffff;
+}
+.line1{
+  padding-top:25rpx;
+  width: 100%;
+}
+.l1{
+  width: 750rpx;
+  height: 1rpx;
+  background-color: #edece8;
+}
+.function{
+  width: 100%;
+  height: 170rpx;
+  background-color: #edece8;
+  display: flex;
+  justify-content: space-between;
+}
+.f1{
+  width: 375rpx;
+  height: 150rpx;
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 150rpx;
+  font-size: 35rpx;
+  color: #000000;
+}
+.f2{
+  width: 374rpx;
+  height: 150rpx;
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 150rpx;
+  font-size: 35rpx;
+  color: #000000;
+}
+.head{
+  padding: 25rpx 20rpx 0rpx;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+}
+.head image{
+  width: 70rpx;
+}
+.row{
+  width: 300rpx;
+  height: 70rpx;
+  font-size:33rpx;
+  text-align: left;
+  line-height: 70rpx;
+}
+.row1{
+  padding: 15rpx 25rpx 0rpx;
+  width: 100%;
+  justify-content: left;
+}
+.details{
+font-size: 35rpx;
+}
+.art{
+  padding-top: 15rpx;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.art1 image{
+  width:344rpx;
+  height:344rpx;
+  border-top-left-radius: 20rpx;
+  border-bottom-left-radius: 20rpx;
+}
+.art2 image{
+  width:344rpx;
+  height:344rpx;
+  border-top-right-radius: 20rpx;
+  border-bottom-right-radius: 20rpx;
+}

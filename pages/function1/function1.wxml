@@ -1,0 +1,70 @@
+<view class="main">
+<view class="item1">鉴别服务开创者</view>
+</view>
+<view class="main1">
+<view class="item2">24小时在线</view>
+<view class="item3">专业便捷</view>
+</view>
+<view class="photo">
+ <view class="p1">拍照鉴别</view>
+</view>
+<!--分割线-->
+<view class="line1">
+  <view class="l1">
+  </view>
+</view>
+<view class="function">
+<view class="f1">154位在线鉴别师</view>
+<view class="f2">成长中心</view>
+</view>
+
+ <!--头像-->
+ <view class="head">
+     <image src="{{path}}t1.jpg" mode="widthFix"></image>
+     <view class="row">
+      <text>大晨子的爱心小铺</text>
+    </view>
+  </view>
+  <!--标题-->
+  <view class="row1">
+  <text class="details">刚入的麻烦各位鉴定</text>
+ </view>
+  <!--标题结束-->
+<!-- 画开始   -->
+<view class="art">
+<view class="art1">
+<image src="{{path}}c11.JPG" mode="widthFix">
+</image>
+</view>
+<view class="art2">
+<image src="{{path}}c12.JPG" mode="widthFix">
+</image>
+</view>
+</view>
+<!-- 画结束 -->
+
+ <!--头像2-->
+ <view class="head">
+     <image src="{{path}}t2.jpg" mode="widthFix"></image>
+     <view class="row">
+      <text>爱吃鱼的猫</text>
+    </view>
+  </view>
+  <!--标题-->
+  <view class="row1">
+  <text class="details">坐等大神 求鉴定</text>
+ </view>
+  <!--标题结束-->
+<!-- 画开始   -->
+<view class="art">
+<view class="art1">
+<image src="{{path}}c13.jpg" mode="widthFix">
+</image>
+</view>
+<view class="art2">
+<image src="{{path}}c14.jpg" mode="widthFix">
+</image>
+</view>
+</view>
+<!-- 画结束 -->
+
